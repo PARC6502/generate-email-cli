@@ -1,0 +1,24 @@
+{
+  "name": "emailgenerator",
+  "keywords": [
+    "csv",
+    "node",
+    "streams"
+  ],
+  "bin": {
+    "basicEmailGen": "./generate-email.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ibby <contact@ibby.me> (ibby.me)",
+  "license": "Unlicense",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "csv": "^5.1.1"
+  }
+}
